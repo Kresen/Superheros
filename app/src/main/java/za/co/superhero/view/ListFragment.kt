@@ -2,6 +2,7 @@ package za.co.superhero.view
 
 import android.os.Bundle
 import android.view.*
+import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
@@ -93,7 +94,11 @@ class ListFragment : Fragment(), ShakeEventManager.ShakeListener {
             when(item.itemId) {
                 R.id.actionDelete -> {
                     view?.let {
-                                viewModel.ClearDatabase()
+                            AlertDialog.Builder(it.context)
+                                .setTitle("Are you sure you want to delete all superheros?")
+                                .setPositiveButton("Yes") { _, _ -> viewModel.ClearDatabase() }
+                                .setNegativeButton("No") { _, _ ->  }
+                                .create().show()
                     }
                 }
             }

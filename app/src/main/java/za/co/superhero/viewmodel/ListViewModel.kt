@@ -101,7 +101,8 @@ public class ListViewModel(application: Application): BaseViewModel(application)
 
     private fun superHeroRetrieved(superheroList: List<SuperHero>?) {
 
-        Log.i("dogs", superheroList.toString())
+        Log.i("superheros", superheroList.toString())
+
         superHeros.value = superheroList
         superHeroLoadError.value = false
         loading.value = false
