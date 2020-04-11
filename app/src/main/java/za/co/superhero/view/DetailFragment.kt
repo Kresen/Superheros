@@ -27,11 +27,11 @@ import za.co.superhero.viewmodel.DetailViewModel
 class DetailFragment : Fragment() {
 
     private lateinit var viewModel: DetailViewModel
-    private var dogUuid = 0
+    private var superheroUuid = 0
 
     private lateinit var dataBinding: FragmentDetailBinding
     private var sendSmsStarted = false
-    private var currentDog: SuperHero? = null
+    private var currentsuperhero: SuperHero? = null
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -48,11 +48,11 @@ class DetailFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
         arguments?.let {
-            dogUuid = DetailFragmentArgs.fromBundle(it).superHeroUuid
+            superheroUuid = DetailFragmentArgs.fromBundle(it).superHeroUuid
         }
 
         viewModel = ViewModelProviders.of(this).get(DetailViewModel::class.java)
-        viewModel.fetch(dogUuid)
+        viewModel.fetch(superheroUuid)
 
         observeViewModel()
     }
@@ -60,10 +60,10 @@ class DetailFragment : Fragment() {
 
 
     private fun observeViewModel() {
-        viewModel.superHeroLiveData.observe(this, Observer { dog ->
-            currentDog = dog
-            dog?.let {
-                dataBinding.superhero = dog
+        viewModel.superHeroLiveData.observe(this, Observer { superhero ->
+            currentsuperhero = superhero
+            superhero?.let {
+                dataBinding.superhero = superhero
 
                 it.image?.url?.let {
                     setupBackgroundColor(it)

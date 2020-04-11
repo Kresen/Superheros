@@ -58,8 +58,8 @@ public class ListViewModel(application: Application): BaseViewModel(application)
     private fun fetchFromDatabase() {
         loading.value = true
         launch {
-            val dogs = SuperHeroDatabase(getApplication()).superHeroDao().getAllSuperHeros()
-            superHeroRetrieved(dogs)
+            val superheros = SuperHeroDatabase(getApplication()).superHeroDao().getAllSuperHeros()
+            superHeroRetrieved(superheros)
             Toast.makeText(getApplication(), "Superheros retrieved from database", Toast.LENGTH_SHORT).show()
         }
     }
@@ -67,7 +67,7 @@ public class ListViewModel(application: Application): BaseViewModel(application)
      fun ClearDatabase() {
         loading.value = true
         launch {
-            val dogs = SuperHeroDatabase(getApplication()).superHeroDao().deleteAllSuperHeros()
+            val superheros = SuperHeroDatabase(getApplication()).superHeroDao().deleteAllSuperHeros()
             superHeroRetrieved(null)
             Toast.makeText(getApplication(), "All Superheros Removed from database", Toast.LENGTH_SHORT).show()
         }
@@ -82,8 +82,8 @@ public class ListViewModel(application: Application): BaseViewModel(application)
                 .observeOn(AndroidSchedulers.mainThread())
                 .subscribeWith(object: DisposableSingleObserver<SuperHero>() {
 
-                    override fun onSuccess(dogList: SuperHero) {
-                        storeHeroLocally(dogList)
+                    override fun onSuccess(superheroList: SuperHero) {
+                        storeHeroLocally(superheroList)
 
                         Toast.makeText(getApplication(), "A new hero has been retrieved from endpoint", Toast.LENGTH_SHORT).show()
                     }
@@ -99,10 +99,10 @@ public class ListViewModel(application: Application): BaseViewModel(application)
         )
     }
 
-    private fun superHeroRetrieved(dogList: List<SuperHero>?) {
+    private fun superHeroRetrieved(superheroList: List<SuperHero>?) {
 
-        Log.i("dogs", dogList.toString())
-        superHeros.value = dogList
+        Log.i("dogs", superheroList.toString())
+        superHeros.value = superheroList
         superHeroLoadError.value = false
         loading.value = false
     }

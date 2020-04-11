@@ -11,24 +11,24 @@ import za.co.superhero.R
 import za.co.superhero.databinding.ItemSuperheroBinding
 import za.co.superhero.model.SuperHero
 
-class SuperHeroListAdapter(val superHeroList: ArrayList<SuperHero>) : RecyclerView.Adapter<SuperHeroListAdapter.DogViewHolder>(),
+class SuperHeroListAdapter(val superHeroList: ArrayList<SuperHero>) : RecyclerView.Adapter<SuperHeroListAdapter.superheroViewHolder>(),
     SuperHeroClickListener {
 
-    fun updateDogList(newDogsList: List<SuperHero>) {
+    fun updatesuperheroList(newsuperherosList: List<SuperHero>) {
         superHeroList.clear()
-        superHeroList.addAll(newDogsList)
+        superHeroList.addAll(newsuperherosList)
         notifyDataSetChanged()
     }
 
-    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): DogViewHolder {
+    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): superheroViewHolder {
         val inflater = LayoutInflater.from(parent.context)
         val view = DataBindingUtil.inflate<ItemSuperheroBinding>(inflater, R.layout.item_superhero, parent, false)
-        return DogViewHolder(view)
+        return superheroViewHolder(view)
     }
 
     override fun getItemCount() = superHeroList.size
 
-    override fun onBindViewHolder(holder: DogViewHolder, position: Int) {
+    override fun onBindViewHolder(holder: superheroViewHolder, position: Int) {
         holder.view.superhero = superHeroList[position]
         holder.view.listener = this
     }
@@ -40,5 +40,5 @@ class SuperHeroListAdapter(val superHeroList: ArrayList<SuperHero>) : RecyclerVi
         Navigation.findNavController(v).navigate(action)
     }
 
-    class DogViewHolder(var view: ItemSuperheroBinding) : RecyclerView.ViewHolder(view.root)
+    class superheroViewHolder(var view: ItemSuperheroBinding) : RecyclerView.ViewHolder(view.root)
 }

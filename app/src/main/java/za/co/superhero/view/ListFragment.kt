@@ -16,7 +16,7 @@ import za.co.superhero.viewmodel.ListViewModel
 class ListFragment : Fragment(), ShakeEventManager.ShakeListener {
 
     private lateinit var viewModel: ListViewModel
-    private val dogsListAdapter = SuperHeroListAdapter(arrayListOf())
+    private val superherosListAdapter = SuperHeroListAdapter(arrayListOf())
     private var sd: ShakeEventManager? = null
 
     override fun onCreateView(
@@ -40,7 +40,7 @@ class ListFragment : Fragment(), ShakeEventManager.ShakeListener {
 
         superHeroList.apply {
             layoutManager = LinearLayoutManager(context)
-            adapter = dogsListAdapter
+            adapter = superherosListAdapter
         }
 
         refreshLayout.setOnRefreshListener {
@@ -60,10 +60,10 @@ class ListFragment : Fragment(), ShakeEventManager.ShakeListener {
     }
 
     fun observeViewModel() {
-        viewModel.superHeros.observe(this, Observer { dogs ->
-            dogs?.let {
+        viewModel.superHeros.observe(this, Observer { superheros ->
+            superheros?.let {
                 superHeroList.visibility = View.VISIBLE
-                dogsListAdapter.updateDogList(dogs)
+                superherosListAdapter.updatesuperheroList(superheros)
             }
         })
 
