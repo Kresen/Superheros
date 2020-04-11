@@ -1,0 +1,518 @@
+[
+  {
+    "id": "70",
+    "name": "Batman",
+    "powerstats": {
+      "intelligence": "100",
+      "strength": "26",
+      "speed": "27",
+      "durability": "50",
+      "power": "47",
+      "combat": "100"
+    },
+    "biography": {
+      "full-name": "Bruce Wayne",
+      "alter-egos": "No alter egos found.",
+      "aliases": [
+        "Insider",
+        "Matches Malone"
+      ],
+      "place-of-birth": "Crest Hill, Bristol Township; Gotham County",
+      "first-appearance": "Detective Comics #27",
+      "publisher": "DC Comics",
+      "alignment": "good"
+    },
+    "appearance": {
+      "gender": "Male",
+      "race": "Human",
+      "height": [
+        "6'2",
+        "188 cm"
+      ],
+      "weight": [
+        "210 lb",
+        "95 kg"
+      ],
+      "eye-color": "blue",
+      "hair-color": "black"
+    },
+    "work": {
+      "occupation": "Businessman",
+      "base": "Batcave, Stately Wayne Manor, Gotham City; Hall of Justice, Justice League Watchtower"
+    },
+    "connections": {
+      "group-affiliation": "Batman Family, Batman Incorporated, Justice League, Outsiders, Wayne Enterprises, Club of Heroes, formerly White Lantern Corps, Sinestro Corps",
+      "relatives": "Damian Wayne (son), Dick Grayson (adopted son), Tim Drake (adopted son), Jason Todd (adopted son), Cassandra Cain (adopted ward)\nMartha Wayne (mother, deceased), Thomas Wayne (father, deceased), Alfred Pennyworth (former guardian), Roderick Kane (grandfather, deceased), Elizabeth Kane (grandmother, deceased), Nathan Kane (uncle, deceased), Simon Hurt (ancestor), Wayne Family"
+    },
+    "image": {
+      "url": "https://www.superherodb.com/pictures2/portraits/10/100/639.jpg"
+    }
+  },
+  {
+    "id": "659",
+    "name": "Thor",
+    "powerstats": {
+      "intelligence": "69",
+      "strength": "100",
+      "speed": "83",
+      "durability": "100",
+      "power": "100",
+      "combat": "100"
+    },
+    "biography": {
+      "full-name": "Thor Odinson",
+      "alter-egos": "Rune King Thor",
+      "aliases": [
+        "Donald Blake",
+        "Sigurd Jarlson",
+        "Jake Olsen",
+        "Donar the Mighty"
+      ],
+      "place-of-birth": "Asgard",
+      "first-appearance": "Journey into Mystery #83 (August, 1962)",
+      "publisher": "Rune King Thor",
+      "alignment": "good"
+    },
+    "appearance": {
+      "gender": "Male",
+      "race": "Asgardian",
+      "height": [
+        "6'6",
+        "198 cm"
+      ],
+      "weight": [
+        "640 lb",
+        "288 kg"
+      ],
+      "eye-color": "Blue",
+      "hair-color": "Blond"
+    },
+    "work": {
+      "occupation": "King of Asgard; formerly EMS Technician; Physician",
+      "base": "New York, New York"
+    },
+    "connections": {
+      "group-affiliation": "Avengers",
+      "relatives": "Odin (father), Gaea (mother), Frigga (step-mother), Loki (step-brother), Vidar (half-brother), Buri (paternal great-grandfather), Bolthorn (maternal great grandfather), Bor (grandfather), Bestla (grandmother), Vili (uncle), Ve (uncle), Sigyn (former sister-in-law), Hela (alleged niece), Jormungand (alleged nephew), Fernis Wolf (alleged nephew)"
+    },
+    "image": {
+      "url": "https://www.superherodb.com/pictures2/portraits/10/100/140.jpg"
+    }
+  },
+  {
+    "id": "156",
+    "name": "Captain Marvel",
+    "powerstats": {
+      "intelligence": "88",
+      "strength": "100",
+      "speed": "88",
+      "durability": "95",
+      "power": "100",
+      "combat": "75"
+    },
+    "biography": {
+      "full-name": "Billy Batson",
+      "alter-egos": "No alter egos found.",
+      "aliases": [
+        "The World's Mightiest Mortal",
+        "The Big Red Cheese",
+        "Captain Thunder",
+        "Shazam"
+      ],
+      "place-of-birth": "Fawcett City, United States",
+      "first-appearance": "Whiz Comics no. 2 (1940)",
+      "publisher": "DC Comics",
+      "alignment": "good"
+    },
+    "appearance": {
+      "gender": "Male",
+      "race": "Human",
+      "height": [
+        "6'4",
+        "193 cm"
+      ],
+      "weight": [
+        "225 lb",
+        "101 kg"
+      ],
+      "eye-color": "Blue",
+      "hair-color": "Black"
+    },
+    "work": {
+      "occupation": "-",
+      "base": "-"
+    },
+    "connections": {
+      "group-affiliation": "Marvel Family, Justice Society of America",
+      "relatives": "C.C. Batson (father, deceased), Marilyn Batson (mother, deceased), Ebenezer Batson (uncle), Mary Batson (Mary Marvel, sister)"
+    },
+    "image": {
+      "url": "https://www.superherodb.com/pictures2/portraits/10/100/278.jpg"
+    }
+  },
+  {
+    "id": "717",
+    "name": "Wolverine",
+    "powerstats": {
+      "intelligence": "63",
+      "strength": "32",
+      "speed": "50",
+      "durability": "100",
+      "power": "89",
+      "combat": "100"
+    },
+    "biography": {
+      "full-name": "Logan",
+      "alter-egos": "No alter egos found.",
+      "aliases": [
+        "Weapon X",
+        "Weapon Ten",
+        "Death",
+        "Mutate 9601",
+        "Jim Logan",
+        "Emilio Garra",
+        "Weapon Chi",
+        "Experiment X",
+        "Agent Ten",
+        "Peter Richards",
+        "Mai kethLogan",
+        "Mr. Patch"
+      ],
+      "place-of-birth": "Alberta, Canada",
+      "first-appearance": "Incredible Hulk Vol. 2 #180",
+      "publisher": "Marvel Comics",
+      "alignment": "good"
+    },
+    "appearance": {
+      "gender": "Male",
+      "race": "Mutant",
+      "height": [
+        "5'3",
+        "160 cm"
+      ],
+      "weight": [
+        "300 lb",
+        "135 kg"
+      ],
+      "eye-color": "Blue",
+      "hair-color": "Black"
+    },
+    "work": {
+      "occupation": "Adventurer, instructor, former bartender, bouncer, spy, government operative, mercenary, soldier, sailor, miner",
+      "base": "Xavier Institute, Salem Center, Westchester County, New York; Avengers Tower, New York City"
+    },
+    "connections": {
+      "group-affiliation": "X-Men, formerly Horsemen of Apocalypse, Fantastic Four, Secret Defenders, Clan Yashida, Department H, Alpha Flight, Department K, Team X, Team_Weapon_X, Devil's Brigade, Canadian Army",
+      "relatives": "John Howlett Sr. (father, deceased), Elizabeth Howlett (mother, deceased), John Howlett Jr. (brother, allegedly deceased), Viper (ex-wife), Amiko (foster daughter), Erista (son), X-23 (clone)"
+    },
+    "image": {
+      "url": "https://www.superherodb.com/pictures2/portraits/10/100/161.jpg"
+    }
+  },
+  {
+    "id": "620",
+    "name": "Spider-Man",
+    "powerstats": {
+      "intelligence": "90",
+      "strength": "55",
+      "speed": "67",
+      "durability": "75",
+      "power": "74",
+      "combat": "85"
+    },
+    "biography": {
+      "full-name": "Peter Parker",
+      "alter-egos": "No alter egos found.",
+      "aliases": [
+        "Spiderman",
+        "Bag-Man",
+        "Black Marvel",
+        "Captain Universe",
+        "Dusk",
+        "Green Hood",
+        "Hornet",
+        "Mad Dog 336",
+        "Peter Palmer",
+        "Prodigy",
+        "Ricochet",
+        "Scarlet Spider",
+        "Spider-Boy",
+        "Spider-Hulk",
+        "Spider-Morphosis"
+      ],
+      "place-of-birth": "New York, New York",
+      "first-appearance": "Amazing Fantasy #15",
+      "publisher": "Marvel Comics",
+      "alignment": "good"
+    },
+    "appearance": {
+      "gender": "Male",
+      "race": "Human",
+      "height": [
+        "5'10",
+        "178 cm"
+      ],
+      "weight": [
+        "165 lb",
+        "74 kg"
+      ],
+      "eye-color": "Hazel",
+      "hair-color": "Brown"
+    },
+    "work": {
+      "occupation": "Freelance photographer, teacher",
+      "base": "New York, New York"
+    },
+    "connections": {
+      "group-affiliation": "Member of the Avengers, formerly member of Outlaws, alternate Fantastic Four",
+      "relatives": "Richard Parker (father, deceased), Mary Parker(mother, deceased), Benjamin Parker (uncle, deceased), May Parker (aunt), Mary Jane Watson-Parker (wife), May Parker (daughter, allegedly deceased)"
+    },
+    "image": {
+      "url": "https://www.superherodb.com/pictures2/portraits/10/100/133.jpg"
+    }
+  },
+  {
+    "id": "1",
+    "name": "A-Bomb",
+    "powerstats": {
+      "intelligence": "38",
+      "strength": "100",
+      "speed": "17",
+      "durability": "80",
+      "power": "24",
+      "combat": "64"
+    },
+    "biography": {
+      "full-name": "Richard Milhouse Jones",
+      "alter-egos": "No alter egos found.",
+      "aliases": [
+        "Rick Jones"
+      ],
+      "place-of-birth": "Scarsdale, Arizona",
+      "first-appearance": "Hulk Vol 2 #2 (April, 2008) (as A-Bomb)",
+      "publisher": "Marvel Comics",
+      "alignment": "good"
+    },
+    "appearance": {
+      "gender": "Male",
+      "race": "Human",
+      "height": [
+        "6'8",
+        "203 cm"
+      ],
+      "weight": [
+        "980 lb",
+        "441 kg"
+      ],
+      "eye-color": "Yellow",
+      "hair-color": "No Hair"
+    },
+    "work": {
+      "occupation": "Musician, adventurer, author; formerly talk show host",
+      "base": "-"
+    },
+    "connections": {
+      "group-affiliation": "Hulk Family; Excelsior (sponsor), Avengers (honorary member); formerly partner of the Hulk, Captain America and Captain Marvel; Teen Brigade; ally of Rom",
+      "relatives": "Marlo Chandler-Jones (wife); Polly (aunt); Mrs. Chandler (mother-in-law); Keith Chandler, Ray Chandler, three unidentified others (brothers-in-law); unidentified father (deceased); Jackie Shorr (alleged mother; unconfirmed)"
+    },
+    "image": {
+      "url": "https://www.superherodb.com/pictures2/portraits/10/100/10060.jpg"
+    }
+  },
+  {
+    "id": "2",
+    "name": "Abe Sapien",
+    "powerstats": {
+      "intelligence": "88",
+      "strength": "28",
+      "speed": "35",
+      "durability": "65",
+      "power": "100",
+      "combat": "85"
+    },
+    "biography": {
+      "full-name": "Abraham Sapien",
+      "alter-egos": "No alter egos found.",
+      "aliases": [
+        "Langdon Everett Caul",
+        "Abraham Sapien",
+        "Langdon Caul"
+      ],
+      "place-of-birth": "-",
+      "first-appearance": "Hellboy: Seed of Destruction (1993)",
+      "publisher": "Dark Horse Comics",
+      "alignment": "good"
+    },
+    "appearance": {
+      "gender": "Male",
+      "race": "Icthyo Sapien",
+      "height": [
+        "6'3",
+        "191 cm"
+      ],
+      "weight": [
+        "145 lb",
+        "65 kg"
+      ],
+      "eye-color": "Blue",
+      "hair-color": "No Hair"
+    },
+    "work": {
+      "occupation": "Paranormal Investigator",
+      "base": "-"
+    },
+    "connections": {
+      "group-affiliation": "Bureau for Paranormal Research and Defense",
+      "relatives": "Edith Howard (wife, deceased)"
+    },
+    "image": {
+      "url": "https://www.superherodb.com/pictures2/portraits/10/100/956.jpg"
+    }
+  },
+  {
+    "id": "3",
+    "name": "Abin Sur",
+    "powerstats": {
+      "intelligence": "50",
+      "strength": "90",
+      "speed": "53",
+      "durability": "64",
+      "power": "99",
+      "combat": "65"
+    },
+    "biography": {
+      "full-name": "",
+      "alter-egos": "No alter egos found.",
+      "aliases": [
+        "Lagzia"
+      ],
+      "place-of-birth": "Ungara",
+      "first-appearance": "Showcase #22 (October, 1959)",
+      "publisher": "DC Comics",
+      "alignment": "good"
+    },
+    "appearance": {
+      "gender": "Male",
+      "race": "Ungaran",
+      "height": [
+        "6'1",
+        "185 cm"
+      ],
+      "weight": [
+        "200 lb",
+        "90 kg"
+      ],
+      "eye-color": "Blue",
+      "hair-color": "No Hair"
+    },
+    "work": {
+      "occupation": "Green Lantern, former history professor",
+      "base": "Oa"
+    },
+    "connections": {
+      "group-affiliation": "Green Lantern Corps, Black Lantern Corps",
+      "relatives": "Amon Sur (son), Arin Sur (sister), Thaal Sinestro (brother-in-law), Soranik Natu (niece)"
+    },
+    "image": {
+      "url": "https://www.superherodb.com/pictures2/portraits/10/100/1460.jpg"
+    }
+  },
+  {
+    "id": "4",
+    "name": "Abomination",
+    "powerstats": {
+      "intelligence": "63",
+      "strength": "80",
+      "speed": "53",
+      "durability": "90",
+      "power": "62",
+      "combat": "95"
+    },
+    "biography": {
+      "full-name": "Emil Blonsky",
+      "alter-egos": "No alter egos found.",
+      "aliases": [
+        "Agent R-7",
+        "Ravager of Worlds"
+      ],
+      "place-of-birth": "Zagreb, Yugoslavia",
+      "first-appearance": "Tales to Astonish #90",
+      "publisher": "Marvel Comics",
+      "alignment": "bad"
+    },
+    "appearance": {
+      "gender": "Male",
+      "race": "Human / Radiation",
+      "height": [
+        "6'8",
+        "203 cm"
+      ],
+      "weight": [
+        "980 lb",
+        "441 kg"
+      ],
+      "eye-color": "Green",
+      "hair-color": "No Hair"
+    },
+    "work": {
+      "occupation": "Ex-Spy",
+      "base": "Mobile"
+    },
+    "connections": {
+      "group-affiliation": "former member of the crew of the Andromeda Starship, ally of the Abominations and Forgotten",
+      "relatives": "Nadia Dornova Blonsky (wife, separated)"
+    },
+    "image": {
+      "url": "https://www.superherodb.com/pictures2/portraits/10/100/1.jpg"
+    }
+  },
+  {
+    "id": "5",
+    "name": "Abraxas",
+    "powerstats": {
+      "intelligence": "88",
+      "strength": "63",
+      "speed": "83",
+      "durability": "100",
+      "power": "100",
+      "combat": "55"
+    },
+    "biography": {
+      "full-name": "Abraxas",
+      "alter-egos": "No alter egos found.",
+      "aliases": [
+        "-"
+      ],
+      "place-of-birth": "Within Eternity",
+      "first-appearance": "Fantastic Four Annual #2001",
+      "publisher": "Marvel Comics",
+      "alignment": "bad"
+    },
+    "appearance": {
+      "gender": "Male",
+      "race": "Cosmic Entity",
+      "height": [
+        "-",
+        "0 cm"
+      ],
+      "weight": [
+        "- lb",
+        "0 kg"
+      ],
+      "eye-color": "Blue",
+      "hair-color": "Black"
+    },
+    "work": {
+      "occupation": "Dimensional destroyer",
+      "base": "-"
+    },
+    "connections": {
+      "group-affiliation": "Cosmic Beings",
+      "relatives": "Eternity (\"Father\")"
+    },
+    "image": {
+      "url": "https://www.superherodb.com/pictures2/portraits/10/100/181.jpg"
+    }
+  }
+
+  ]
