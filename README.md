@@ -4,7 +4,7 @@ An app built in kotlin  illustrating MVVM Android Architecture
 Introduction
 ------------
 
-The application uses Clean Architecture based on MVVM and Repository patterns. Implemented
+The application uses Clean Architecture based on MVVM pattern. Implemented
 Architecture principles follow Google recommended [Guide to app architecture](https://developer.android.com/jetpack/docs/guide).
 
 ![Guide to app architecture](screenshots/guide-to-app-architecture.png "Guide to app architecture")
