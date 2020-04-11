@@ -32,7 +32,7 @@ The app allows you to **shake device to discover or pull to refresh to discover 
 Screenshots
 -----------
 
-![ListFragment](screenshots/Screenshot_1e.png "List of superheros and villains")
+![ListFragment](screenshots/Screenshot_1.png "List of superheros and villains")
 ![DetailFragment](screenshots/Screenshot_2.png "Detail view of superheros or villains")
 ![DetailFragment](screenshots/Screenshot_3.png "Detail view of superheros or villains")
 
@@ -54,7 +54,7 @@ categories:
      asynchronous tasks for optimal execution.
 * [WorkManager] - Manage your Android background jobs.
 
-* [UI][30] - Details on why and how to use UI Components in your apps - together or separate.
+* [UI] - Details on why and how to use UI Components in your apps - together or separate.
   * [Palette] - The Palette object gives you access to the colors in a image
   * [Fragment] - A basic unit of composable UI.
   * [Layout] - Lay out widgets using different algorithms.
@@ -64,7 +64,7 @@ categories:
      and reducing needs for callbacks.
   * [Retrofit ] A configurable REST client.
   * [GSON] A Json - Object converter using reflection.
-  * [Glide][90] Image loading.
+  * [Glide] Image loading.
 
 
 
