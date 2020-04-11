@@ -23,7 +23,7 @@ Glide is used for image loading.
 
 Getting Started
 ---------------
-Add your  **access token to api_developer_token in the gradle.properties file. ** [Get Access Token](http://superheroapi.com/)
+Add your  **access token to api_developer_token in the gradle.properties file.** [Get Access Token](http://superheroapi.com/)
 
 The app has a SeedDatabaseWorker that populates the app with 10 Superheros on install
 
@@ -32,9 +32,9 @@ The app allows you to **shake device to discover or pull to refresh to discover 
 Screenshots
 -----------
 
-![ListFragment](screenshots/Screenshot_1.png =250x250 "List of superheros and villains")
-![DetailFragment](screenshots/Screenshot_2.png =250x250 "Detail view of superheros or villains")
-![DetailFragment](screenshots/Screenshot_3.png =250x250 "Detail view of superheros or villains")
+![ListFragment](screenshots/Screenshot_1.png  "List of superheros and villains")
+![DetailFragment](screenshots/Screenshot_2.png  "Detail view of superheros or villains")
+![DetailFragment](screenshots/Screenshot_3.png  "Detail view of superheros or villains")
 
 Libraries Used
 --------------
