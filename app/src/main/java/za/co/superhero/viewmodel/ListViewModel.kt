@@ -85,7 +85,7 @@ public class ListViewModel(application: Application): BaseViewModel(application)
                     override fun onSuccess(superheroList: SuperHero) {
                         storeHeroLocally(superheroList)
 
-                        Toast.makeText(getApplication(), "A new hero has been retrieved from endpoint", Toast.LENGTH_SHORT).show()
+                        Toast.makeText(getApplication(), "A new hero has been retrieved from api endpoint", Toast.LENGTH_SHORT).show()
                     }
 
                     override fun onError(e: Throwable) {
@@ -104,7 +104,7 @@ public class ListViewModel(application: Application): BaseViewModel(application)
         Log.i("superheros", superheroList.toString())
 
         superHeros.value = superheroList
-        superHeroLoadError.value = false
+        superHeroLoadError.value = superheroList!!.isEmpty()
         loading.value = false
     }
 
