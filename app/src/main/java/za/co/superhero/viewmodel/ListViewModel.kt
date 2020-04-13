@@ -102,25 +102,32 @@ public class ListViewModel(application: Application): BaseViewModel(application)
     private fun superHeroRetrieved(superheroList: List<SuperHero>?) {
 
         Log.i("superheros", superheroList.toString())
+        if (superheroList != null) {
+            superHeros.value = superheroList
+            superHeroLoadError.value = superheroList!!.isEmpty()
+        }else{
+            superHeroLoadError.value = true;
+        }
 
-        superHeros.value = superheroList
-        superHeroLoadError.value = superheroList!!.isEmpty()
         loading.value = false
     }
 
     private fun storeHeroLocally(list: SuperHero) {
+        list?.let {
         launch {
-            val dao = SuperHeroDatabase(getApplication()).superHeroDao()
-          //  dao.deleteAllSuperHeros()
-            val result = dao.insert(list)
-            var i = 0
-         //   while (i < list.size) {
-          //      list[i].uuid = result[i].toInt()
-          //      ++i
-         //   }
-            var suplist = listOf<SuperHero>(list)
 
-            superHeroRetrieved(suplist)
+                val dao = SuperHeroDatabase(getApplication()).superHeroDao()
+                //  dao.deleteAllSuperHeros()
+                val result = dao.insert(list)
+                var i = 0
+                //   while (i < list.size) {
+                //      list[i].uuid = result[i].toInt()
+                //      ++i
+                //   }
+                var suplist = listOf<SuperHero>(list)
+
+                superHeroRetrieved(suplist)
+            }
         }
         prefHelper.saveUpdateTime(System.nanoTime())
     }
